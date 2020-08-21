@@ -1,0 +1,16 @@
+{
+    "meals": [
+        {
+            "name": "Bacon and Egg Doughnuts",
+            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8304936.jpg&q=85",
+            "ingredients": [
+                "1 cup cold water", "½ cup butter", "2 tablespoons white sugar", "1/2 teaspoon salt", "1/4 teaspoon freshly grated nutmeg", "1 cup all-purpose flour", "1/4 teaspoon vanilla extract", "4 large eggs", "12 strips bacon", "1 quart vegetable oil", "1/4 cup maple syrup", "1/4 teaspoon salt"    
+            ],
+            "link": "https://www.allrecipes.com/recipe/244264/bacon-and-egg-doughnuts/",
+            "calories": 541,
+            "carbs": 29,
+            "protein": 13,
+            "fat": 41
+        }
+    ]
+}
