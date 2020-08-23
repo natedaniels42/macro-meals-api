@@ -8,6 +8,15 @@ const index = (req, res) => {
     });
 };
 
+const show = (req, res) => {
+    db.Meal.findById(req.params.id, (err, foundMeal) => {
+        if (err) console.log('Error in mealsshow:', err);
+
+        res.status(200).send(foundMeal);
+    });
+};
+
 module.exports = {
     index,
+    show,
 }
