@@ -68,7 +68,23 @@ const login = async (req, res) => {
     }
 };
 
+const verify = async (req, res) => {
+    const token = req.headers['authorization'];
+    console.log(req.headers);
+    console.log('Verify Token ---> ', token);
+    jwt.verify(token, process.env.JWT_SECRET, (err, decodedUser) => {
+        if (err || !decodedUser) {
+            return res.status(401).json({
+                message: 'You are not authorized. Please login and try again'
+            });
+        }
+        req.currentUser = decodedUser;
+        res.status(200).json({user: decodedUser});
+    });
+};
+
 module.exports = {
     register,
     login,
+    verify,
 };
