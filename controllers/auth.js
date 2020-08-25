@@ -83,6 +83,7 @@ const verify = async (req, res) => {
     });
 };
 
+
 module.exports = {
     register,
     login,

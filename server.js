@@ -17,5 +17,6 @@ app.use(express.json());
 
 app.use('/api/v1/meals', routes.meals);
 app.use('/api/v1/auth', routes.auth);
+app.use('/api/v1/mealList', routes.mealList);
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));

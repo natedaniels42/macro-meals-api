@@ -11,6 +11,126 @@
             "carbs": 29,
             "protein": 13,
             "fat": 41
+        },
+        {
+            "name": "Breakfast Stuffed Sweet Potatoes",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2018/06/Scrambled-Eggs-Stuffed-Sweet-Potatoes_-4.jpg",
+            "ingredients": ["2 sweet potatoes", "1/2 tbs olive oil", "himalyan sea salt", "black pepper", "4 eggs", "2 tbs coconut milk", "hot sauce", "1/2 medium avocado"],
+            "link": "https://mealpreponfleek.com/stuffed-sweet-potato/",
+            "calories": 405,
+            "carbs": 44,
+            "protein": 17,
+            "fat": 19
+        },
+        {
+            "name": "Make Ahead Breakfast Burrito",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/breakfast-burritos-edit-1024x1024@2x-768x768.jpg",
+            "ingredients": ["tortillas", "eggs", "peppers", "onions", "breakfast sausage", "cheese", "hot sauce"],
+            "link": "https://projectmealplan.com/make-ahead-freezer-friendly-breakfast-burritos/",
+            "calories": 412,
+            "carbs": 28,
+            "protein": 23,
+            "fat": 23
+        },
+        {
+            "name": "Low Carb Vanilla Protein Waffles",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/wholesomeyum-easy-vanilla-low-carb-protein-waffles-recipe-2.jpg",
+            "ingredients": ["2 scoops Atkins Vanilla Protein Powder 1/4 cup", "2 tbsp Peanut butter (creamy, no sugar added)", "2 tbs coconut oil", "3 large eggs", "1/ tsp gluten-free baking powder", "1/4 tsp sea salt"],
+            "link": "https://www.wholesomeyum.com/easy-vanilla-low-carb-protein-waffles-recipe/",
+            "calories": 439,
+            "carbs": 11,
+            "protein": 29,
+            "fat": 32
+        },
+        {
+            "name": "Mexican Breakfast Bowls",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/mexican-breakfast-bowls_-4-768x1152.jpg",
+            "ingredients": ["cauliflower rice", "2 avocados", "4 eggs", "1 lb ground turkey", "1 tbs avocado oil", "1/4 cup salsa"],
+            "link": "https://hungryhobby.net/mexican-breakfast-bowls/",
+            "calories": 406,
+            "carbs": 14,
+            "protein": 34,
+            "fat": 25
+        },
+        {
+            "name": "Butternut Squash and Cranberry Skillet",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2017/10/butternut-cranberry-img3-768x1152.jpg",
+            "ingredients": ["4 cups butternut squash", "2 cups cranberries", "1 lb sausage", "1/2 tsp nutmeg", "1/2 tsp sage", "1/2 tsp dried thyme", "1 tbs extra virgin olive oil" ],
+            "link": "https://mealpreponfleek.com/butternut-squash-cranberry-skillet-meal-prep/",
+            "calories": 349,
+            "carbs": 21,
+            "protein": 19,
+            "fat": 21
+        },
+        {
+            "name": "Sausage Lover’s Hashbrown Casserole",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2017/03/1708_Sausage-Lovers-Hashbrown-Casserole_004-768x1151.jpg",
+            "ingredients": ["4-6 sausages", "6 large eggs", "1 1/3 cup egg whites", "4 cups shredded potatoes", "fresh spinach", "salt", "pepper"],
+            "link": "https://mealpreponfleek.com/sausage-lovers-hashbrown-casserole/",
+            "calories": 258,
+            "carbs": 13,
+            "protein": 23,
+            "fat": 13
+        },
+        {
+            "name": "Keto Overnight Oats",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/keto-oatmeal-6-768x1152.jpg",
+            "ingredients": ["6 tbs hemp hearts", "2 tsp chia seeds", "1 tsp vanilla extract", "5 tbs heavy cream", "1 tbs sweetener"],
+            "link": "https://jenniferbanz.com/keto-oatmeal",
+            "calories": 327,
+            "carbs": 9,
+            "protein": 11,
+            "fat": 27
+        },
+        {
+            "name": "Air Fryer Chicken Parm",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2019/12/Air-Fryer-Chicken-Parmesan-Hand-768x1024.jpg",
+            "ingredients": ["12 oz boneless skinless chicken breast", "1 large egg", "1/2 cup gluten-free breadcrumbs", "2 tbs grated parmesan cheese", "1 tsp dried basil", "1 tsp dried oregano", "1/4 tsp garlic powder", "1/2 tsp sea salt", "1/2 cup shredded par skim mozzarella cheese", "1/2 cup marinara sauce", "1/3 cup chopped fresh basil", "1/4 tsp black pepper"],
+            "link": "https://mealpreponfleek.com/air-fryer-chicken-parmesan/",
+            "calories": 385,
+            "carbs": 28,
+            "protein": 32,
+            "fat": 18
+        },
+        {
+            "name": "Green Chili Chicken Bake",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/IMG_2128.jpg",
+            "ingredients": ["1/2 cup cream cheese", "1/4 cup salsa verde", "4 oz can diced green chilies", "2 tsp cumin", "1 tsp garlic", "1/2 tsp chili powder", "1 1/2 tsp salt", " 1 can diced tomatoes", "chicken tenderloins", "1 medium ear of corn", "corn tortillas", "1/2 oz shredded mexican cheese"],
+            "link": "https://lillieeatsandtells.com/creamy-green-chili-chicken-bake/",
+            "calories": 240,
+            "carbs": 14,
+            "protein": 40,
+            "fat": 5
+        },
+        {
+            "name": "Low Carb Hamburger Helper",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2019/09/Multiple-Container-2-601x800.jpg",
+            "ingredients": ["1 lb lean ground beef", "1/2 cup chopped onion", "1/2 tsp garlic powder", "1 tsp paprika", "1 tsp sea salt", "1/4 tsp black pepper", "2 tbs tomato paste", "1 tsp yellow mustard", "2/3 cup whole milk", "1/2 cup beef broth", "1 tsp coconut sugar", "1 1/2 cups shredded cheddar cheese", "2 cans Palmini linguini noodles", "2 tbs chopped parsley"],
+            "link": "https://mealpreponfleek.com/low-carb-hamburger-helper/",
+            "calories": 390,
+            "carbs": 11,
+            "protein": 40,
+            "fat": 20
+        },
+        {
+            "name": "Instant Pot Pork Ragu",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/IMG_5660-copy.jpg",
+            "ingredients": ["870 g pork tenderloin", "4 cups onion", "1 cup celery", "2 cups carrot", "1 tbs italian seasoning", "2 tsp salt", "1 tsp pepper", "8 cloves garlic", "28 oz can San Marzano tomatoes", "3 tbs tomato paste", "10 oz cauliflower", "2 1/2 cups beef broth", "1 cup cooking wine"],
+            "link": "https://lillieeatsandtells.com/instant-pot-pork-ragu/",
+            "calories": 219,
+            "carbs": 23,
+            "protein": 28,
+            "fat": 3
+        },
+        {
+            "name": "Garlic Butter Chicken Thighs and Zoodles",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2019/09/Garlic-Coconut-Butter-Chicken-Thighs-Zoodles-770-1-768x1052.jpg",
+            "ingredients": ["1 lb boneless skinless chicken thighs", "4 cups cherry tomatoes", "4 large zucchini", "4 tsp minced garlic", "1 tbs olive oil", "2 tbs Now Foods Coconut Infusions non dairy butter", "2 tsp italian seasoning", "1 tbs hot sauce", "1 lemon", "1/4 cup chicken broth", "1/4 chopped parsley", "salt", "pepper", "4 Now Foods Coconut Infusions Keto Packets"],
+            "link": "https://mealpreponfleek.com/garlic-coconut-butter-chicken-thighs-and-zoodles/",
+            "calories": 442,
+            "carbs": 14,
+            "protein": 22,
+            "fat": 35
         }
     ]
 }
