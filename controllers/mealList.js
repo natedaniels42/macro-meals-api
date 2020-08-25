@@ -8,6 +8,15 @@ const create = (req, res) => {
     });
 };
 
+const destroy = (req, res) => {
+    db.MealList.findByIdAndDelete(req.params.id, (err, deletedMealList) => {
+        if (err) console.log('Error in meallist destroy:', err);
+
+        res.status(200).json(deletedMealList);
+    });
+};
+
 module.exports = {
     create,
+    destroy,
 };
