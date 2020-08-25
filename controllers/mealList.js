@@ -8,6 +8,14 @@ const index = (req, res) => {
     });
 };
 
+const show = (req, res) => {
+    db.MealList.findById(req.params.id, (err, foundMealList) => {
+        if (err) console.log('Error in meallist show: ', err);
+
+        res.status(200).send(foundMealList);
+    });
+};
+
 const create = (req, res) => {
     db.MealList.create(req.body, (err, savedMealList) => {
         if (err) console.log('Error in meal list create: ', err);
@@ -37,6 +45,7 @@ const destroy = (req, res) => {
 
 module.exports = {
     index,
+    show,
     create,
     update,
     destroy,
