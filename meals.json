@@ -191,6 +191,146 @@
             "carbs": 20,
             "protein": 48,
             "fat": 27
+        },
+        {
+            "name": "Carnitas Tostadas",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/IMG_0097.jpg",
+            "ingredients": ["2-3 lbs pork tenderloin", "sea salt", "16 oz green salsa", "8 cloves of garlic", "1 medium white onion", "3 corn torillas", "25 g refried beans", "130 g carnitas", "shredded lettuce", "60 g pico", "20 g mango", "30 g avocado", "cilantro", "10 g fat free sour cream", "15 g skinny cilantro lime ranch", "5 g Cotija", "lime"],
+            "link": "https://lillieeatsandtells.com/tostadas-with-the-best-slow-cooker-salsa-verde-carnitas/",
+            "calories": 463,
+            "carbs": 49,
+            "protein": 38,
+            "fat": 13
+        },
+        {
+            "name": "Sheet Pan Shrimp Fajitas",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2019/08/Sheet-Pan-Shrimp-Fajitas-Plated-1-601x800.jpg",
+            "ingredients": ["1 lb raw shrimp", "2 cups bell peppers", "1 cup white onion", "2 tbs olive oil", "1 tsp ground cumin", "1 tsp dried oregano", "1/2 tsp smoked paprika", "1/4 tsp onion powder", "1/2 tsp sea salt","1/8 tsp cayenne pepper", "1 cup chopped tomatoes", "1/4 cup red onion", "1/4 cup cilantro", "1 tbs lime juice", "1 lime", "4 corn tortillas"],
+            "link": "https://mealpreponfleek.com/sheet-pan-shrimp-fajitas/",
+            "calories": 246,
+            "carbs": 23,
+            "protein": 32,
+            "fat": 10
+        },
+        {
+            "name": "Spinach Stuffed Chicken Breast",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/Baked-Spinach-Stuffed-Chicken-7.jpg",
+            "ingredients": ["3 chicken breasts", "4 tbs ricotta", "1 cup fresh baby spinach", "2 spring onions", "1/4 tsp salt", "1/8 tsp black pepper", "1 tsp paprika", "1/4 tsp garlic granules", "lemon juice", "olive oil"],
+            "link": "https://www.mygorgeousrecipes.com/spinach-stuffed-chicken-breast/",
+            "calories": 300,
+            "carbs": 2,
+            "protein": 50,
+            "fat": 8
+        },
+        {
+            "name": "Sheet Pan Greek Chicken and Vegetables",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2019/06/Roasted-Greek-Chicken-and-Vegetables-Plated-1-601x800.jpg",
+            "ingredients": ["1/3 cup olive oil", "1/4 cup fresh lemon juice", "1 tbs chopped mint", "1 tsp dried oregano", "1/2 tsp dried dill", "1 tsp minced garlic", "1/2 tsp sea salt", "1/4 tsp black pepper", "1 cup diced zucchini", "4 boneless skinless chicken breast", "2 cups canned artichoke hearts", "1 cup red onion", "8 cups mixed greens", "1 cup cherry tomatoes"],
+            "link": "https://mealpreponfleek.com/sheet-pan-greek-chicken-and-vegetables/",
+            "calories": 454,
+            "carbs": 31,
+            "protein": 34,
+            "fat": 21
+        },
+        {
+            "name": "Lasagna Roll Ups",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/lasagna-roll-ups-new.jpg",
+            "ingredients": ["16 oz lean ground beef", "28 oz marinara sauce", "15 oz part skim ricotta", "1 large egg", "1 cup 2% shredded mozzarella cheese", "1/4 cup shredded parmesan cheese", "12 pieces lasagna noodles", "3 cloves garlic", "salt", "pepper", "1 tsp dried oregano", "3 tbs chopped basil", "3 tbs chopped Italian parsley"],
+            "link": "https://www.malzisfit.com/lasagna-roll-ups/",
+            "calories": 230,
+            "carbs": 24,
+            "protein": 16,
+            "fat": 7
+        },
+        {
+            "name": "Korean Beef Bowls",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2019/06/web_STS1164-768x1152.jpg",
+            "ingredients": ["16 oz boneless beef strip steak", "1/4 cup coconut aminos", "2 tbs Asian sesame oil", "2 cups brown rice", "4 cups assorted veggies", "2/3 cup kimchi", "1/4 cup green onion"],
+            "link": "https://mealpreponfleek.com/korean-beef-bowl/",
+            "calories": 390,
+            "carbs": 33,
+            "protein": 32,
+            "fat": 14
+        },
+        {
+            "name": "Sheet Pan Thyme Pork Chops and Marinated Salad",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2019/06/3_SheetPanThymePorkChops_Plated_Cropped-768x1152.jpg",
+            "ingredients": ["4 boneless pork chops", "1/4 cup avocado oil", "1 tbs minced shallot", "2 tbs fresh thyme", " 2 tsp minced garlic", "1 tsp lemon pepper", "1/2 tsp pink Himalyan salt", "1 lemon", "1 English cucumber", "5 roma tomatoes", "2 tbs Italian parsley", "2 tbs extra virgin olive oil", "1 tbs minced shallot", "1/2 tbs red wine vinegar", "1/2 tbs lemon juice", "1/4 red chili pepper flakes", "1/4 tsp dried oregano", "zest of 1 lemon", "arugula"],
+            "link": "https://mealpreponfleek.com/sheet-pan-thyme-pork-chops-and-marinated-salad/",
+            "calories": 372,
+            "carbs": 6,
+            "protein": 23,
+            "fat": 28
+        },
+        {
+            "name": "Paleo Casserole With Chicken",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2020/03/dairy-free-paleo-casserole-picture-683x1024-1.jpg",
+            "ingredients": ["olive oil", "lean ground turkey", "onion", "tomato paste", "pepper", "large zucchini", "garlic", "salt", "cumin powder", "cardamom powder", "oregano flakes", "chili powder", "fresh tarragon", "tomato", "orange bell pepper", "allmond meal", "coconut flour", "unsweetened almond milk"],
+            "link": "https://www.foodfaithfitness.com/paleo-casserole-chicken-zucchini/",
+            "calories": 321,
+            "carbs": 14,
+            "protein": 25,
+            "fat": 20
+        },
+        {
+            "name": "Zucchini Beef Enchiladas",
+            "image": "https://mealpreponfleek.com/wp-content/uploads/2018/08/Beef-Zucchini-Enchilada-Meal-Prep-8.jpg",
+            "ingredients": ["1 tbs olive oil", "1 lb beef chuck", "1 cup beef broth", "sea salt", "black pepper", "1/4 tsp garlic powder", "1 tsp ground cumin", "2 tsp chili powder", "1 cup red sauce", "4 large zucchini", "1/2 shredded cheddar cheese"],
+            "link": "https://mealpreponfleek.com/beef-zucchini-enchilada/",
+            "calories": 444,
+            "carbs": 15,
+            "protein": 28,
+            "fat": 30
+        },
+        {
+            "name": "Cauliflower Hashbrown Egg Cups",
+            "image": "https://healthyeater.com/wp-content/uploads/2017/07/Hash-Brown-Egg-Cups-20.jpg",
+            "ingredients": ["1 head of cauliflower", "1 large egg", "1/2 cup cheddar cheese", "1/4 cup grated parmesan cheese", "1 tsp salt", "pepper", "1/2 tsp garlic powder", "12 medium eggs"],
+            "link": "https://cafedelites.com/2015/07/29/cauliflower-hash-brown-egg-cups-low-carb-gluten-free/",
+            "calories": 88,
+            "carbs": 2,
+            "protein": 8,
+            "fat": 5
+        },
+        {
+            "name": "Cheddar Ranch Chicken",
+            "image": "https://healthyeater.com/wp-content/uploads/2017/07/cheddarranchchickentitle.jpg",
+            "ingredients": ["1 1.5 oz packet Simply Organic ranch dressing mix", "1/2 cup panko breadcrumbs", "1/2 cup shredded cheddar cheese", "1.5 lbs chicken breast", "1 egg white", "1 tbs extra virgin olive oil", "cooking spray"],
+            "link": "http://www.organizeyourselfskinny.com/2016/12/08/healthy-baked-cheddar-ranch-chicken-recipe/",
+            "calories": 276,
+            "carbs": 7,
+            "protein": 30,
+            "fat": 13
+        },
+        {
+            "name": "Pesto Chicen and Veggies",
+            "image": "https://healthyeater.com/wp-content/uploads/2017/07/27395891016_53bde93c51_c.jpg",
+            "ingredients": ["olive oil", "boneless skiness chicken thighs", "sun-dried tomatoes", "asparagus", "basil pesto", "cherry tomatoes"],
+            "link": "https://juliasalbum.com/one-pan-pesto-chicken-and-veggies/",
+            "calories": 434,
+            "carbs": 19,
+            "protein": 55,
+            "fat": 20
+        },
+        {
+            "name": "Turkey Burgers with Warm Relish",
+            "image": "https://healthyeater.com/wp-content/uploads/2017/05/Turkey-Burgers.jpg",
+            "ingredients": ["ground turkey", "1 medium onion", "1 red bell pepper", "3 cups red cabbage", "1 tbs olive oil", "1/4 cup balsamic vinegar", "1/4 tsp garlic salt", "4 leafs of lettuce"],
+            "link": "https://healthyeater.com/turkey-burger-recipe",
+            "calories": 258,
+            "carbs": 10,
+            "protein": 23,
+            "fat": 13
+        },
+        {
+            "name": "Steak Fajita Rollups",
+            "image": "https://healthyeater.com/wp-content/uploads/2017/07/Steak-Fajita-Roll-Ups.jpg",
+            "ingredients": ["fajita seasoning mix", "1 lb sirloin tip steak", "1 tbs olive oil", "3 colored bell peppers", "1 large yellow onion", "1 lime", "chopped parsley", "guacamole"],
+            "link": "http://diethood.com/steak-fajita-roll-ups/",
+            "calories": 339,
+            "carbs": 8,
+            "protein": 32,
+            "fat": 19
         }
     ]
 }

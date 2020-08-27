@@ -9,9 +9,11 @@ const index = (req, res) => {
 };
 
 const show = (req, res) => {
-    db.MealList.findById(req.params.id, (err, foundMealList) => {
+    db.MealList.findById(req.params.id) 
+        .populate({path: 'meals'})
+        .exec((err, foundMealList) => {
         if (err) console.log('Error in meallist show: ', err);
-
+        console.log(foundMealList);
         res.status(200).send(foundMealList);
     });
 };
@@ -43,10 +45,29 @@ const destroy = (req, res) => {
     });
 };
 
+const addMeal = (req, res) => {
+    console.log(req.params);
+    db.MealList.findById(req.params.meallistid, (err, foundMealList) => {
+        if (err) console.log(err);
+        console.log(foundMealList);
+        db.Meal.findById(req.params.mealid, (err, foundMeal) => {
+            if (err) console.log(err);
+            console.log(foundMeal);
+            foundMealList.meals.push(foundMeal);
+            foundMealList.save((err, savedMealList) => {
+                if(err) console.log(err);
+
+                res.status(200).json(savedMealList);
+            }) 
+        })
+    })
+}
+
 module.exports = {
     index,
     show,
     create,
     update,
     destroy,
+    addMeal,
 };
