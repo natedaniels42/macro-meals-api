@@ -1,3 +1,4 @@
+require('dotenv').config();
 const db = require('./models');
 const data = require('./meals.json');
 
