@@ -6,7 +6,7 @@ const PORT = process.env.PORT;
 const routes = require('./routes');
 
 app.use(cors({
-    origin: 'https://macro-meals42.herokuapp.com/',
+    origin: 'https://macro-meals42.herokuapp.com',
     methods: 'GET,POST,PUT,DELETE',
     optionsSuccessStatus: 200
 }));
