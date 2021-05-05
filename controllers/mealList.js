@@ -50,13 +50,17 @@ const addMeal = (req, res) => {
         if (err) console.log(err);
         db.Meal.findById(req.params.mealid, (err, foundMeal) => {
             if (err) console.log(err);
-           
-            foundMealList.meals.push(foundMeal);
-            foundMealList.save((err, savedMealList) => {
-                if(err) console.log(err);
+            
+            const idList = foundMealList.meals.map(meal => meal._id);
+            if (!idList.includes(foundMeal._id)) {
+                foundMealList.meals.push(foundMeal);
+                foundMealList.save((err, savedMealList) => {
+                    if(err) console.log(err);
+    
+                    res.status(200).json(savedMealList);
+                }) 
 
-                res.status(200).json(savedMealList);
-            }) 
+            }
         })
     })
 }
