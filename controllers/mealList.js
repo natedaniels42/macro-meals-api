@@ -65,6 +65,22 @@ const addMeal = (req, res) => {
     })
 }
 
+const removeMeal = (req, res) => {
+    db.MealList.findById(req.params.meallistid, (err, foundMealList) => {
+        if (err) console.log(err);
+        db.Meal.findById(req.params.mealid, (err, foundMeal) => {
+            if (err) console.log(err);
+
+            foundMealList.meals = foundMealList.meals.filter(meal => String(meal._id) !== String(foundMeal._id));
+            foundMealList.save((err, savedMealList) => {
+                if (err) console.log(err);
+
+                res.status(200).json(savedMealList);
+            })
+        })
+    })
+}
+
 module.exports = {
     index,
     show,
@@ -72,4 +88,5 @@ module.exports = {
     update,
     destroy,
     addMeal,
+    removeMeal,
 };
