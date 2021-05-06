@@ -19,10 +19,19 @@ const show = (req, res) => {
 };
 
 const create = (req, res) => {
-    db.MealList.create(req.body, (err, savedMealList) => {
-        if (err) console.log('Error in meal list create: ', err);
+    db.User.findById(req.params.userid, (err, foundUser) => {
+        if (err) console.log(err);
+        
+        db.MealList.create(req.body, (err, savedMealList) => {
+            if (err) console.log('Error in meal list create: ', err);
+    
+            foundUser.mealLists.push(savedMealList);
+            foundUser.save((err, savedUser) => {
+                if (err) console.log(err);
 
-        res.status(200).json(savedMealList);
+                res.status(200).json({savedUser, savedMealList});
+            }) 
+        })
     });
 };
 
