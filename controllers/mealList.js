@@ -50,13 +50,33 @@ const addMeal = (req, res) => {
         if (err) console.log(err);
         db.Meal.findById(req.params.mealid, (err, foundMeal) => {
             if (err) console.log(err);
-           
-            foundMealList.meals.push(foundMeal);
+            
+            const idList = foundMealList.meals.map(meal => meal._id);
+            if (!idList.includes(foundMeal._id)) {
+                foundMealList.meals.push(foundMeal);
+                foundMealList.save((err, savedMealList) => {
+                    if(err) console.log(err);
+    
+                    res.status(200).json(savedMealList);
+                }) 
+
+            }
+        })
+    })
+}
+
+const removeMeal = (req, res) => {
+    db.MealList.findById(req.params.meallistid, (err, foundMealList) => {
+        if (err) console.log(err);
+        db.Meal.findById(req.params.mealid, (err, foundMeal) => {
+            if (err) console.log(err);
+
+            foundMealList.meals = foundMealList.meals.filter(meal => String(meal._id) !== String(foundMeal._id));
             foundMealList.save((err, savedMealList) => {
-                if(err) console.log(err);
+                if (err) console.log(err);
 
                 res.status(200).json(savedMealList);
-            }) 
+            })
         })
     })
 }
@@ -68,4 +88,5 @@ module.exports = {
     update,
     destroy,
     addMeal,
+    removeMeal,
 };
