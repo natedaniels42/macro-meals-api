@@ -47,7 +47,7 @@ const update = (req, res) => {
 };
 
 const destroy = (req, res) => {
-    db.MealList.findById/*AndDelete*/(req.params.meallistid, (err, deletedMealList) => {
+    db.MealList.findByIdAndDelete(req.params.meallistid, (err, deletedMealList) => {
         if (err) console.log('Error in meallist destroy:', err);
 
         db.User.findById(req.params.userid, (err, foundUser) => {
