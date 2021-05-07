@@ -47,10 +47,19 @@ const update = (req, res) => {
 };
 
 const destroy = (req, res) => {
-    db.MealList.findByIdAndDelete(req.params.id, (err, deletedMealList) => {
+    db.MealList.findById/*AndDelete*/(req.params.meallistid, (err, deletedMealList) => {
         if (err) console.log('Error in meallist destroy:', err);
 
-        res.status(200).json(deletedMealList);
+        db.User.findById(req.params.userid, (err, foundUser) => {
+            if (err) console.log(err);
+        
+            foundUser.mealLists = foundUser.mealLists.filter(mealList => String(mealList) !== String(deletedMealList._id));
+            foundUser.save((err, savedMealList) => {
+                if (err) console.log(err);
+                
+                res.status(200).json({deletedMealList, savedMealList});
+            })
+        })
     });
 };
 
