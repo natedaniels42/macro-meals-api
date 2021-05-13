@@ -18,6 +18,14 @@ const show = (req, res) => {
     });
 };
 
+const findByUser = (req, res) => {
+    db.MealList.find({user: req.params.userid}, (err, foundMealLists) => {
+        if (err) console.log(err);
+
+        res.status(200).send(foundMealLists);
+    })
+}
+
 const create = (req, res) => {
     db.User.findById(req.params.userid, (err, foundUser) => {
         if (err) console.log(err);
@@ -93,6 +101,7 @@ const removeMeal = (req, res) => {
 module.exports = {
     index,
     show,
+    findByUser,
     create,
     update,
     destroy,
