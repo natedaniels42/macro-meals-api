@@ -25,11 +25,11 @@ const create = (req, res) => {
         db.MealList.create(req.body, (err, savedMealList) => {
             if (err) console.log('Error in meal list create: ', err);
     
-            foundUser.mealLists.push(savedMealList);
-            foundUser.save((err, savedUser) => {
+            savedMealList.user = foundUser;
+            savedMealList.save((err, updatedMealList) => {
                 if (err) console.log(err);
 
-                res.status(200).json({savedUser, savedMealList});
+                res.status(200).json({updatedMealList});
             }) 
         })
     });
