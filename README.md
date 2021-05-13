@@ -20,25 +20,25 @@ Once there are meals listed you will see the same meal card from the meals index
 
 ## Wireframes
 ### Home page
-![](./home-page.png)
+![](./wireframes/home-page.png)
 
 ### Signup
-![](./signup.png)
+![](./wireframes/signup.png)
 
 ### Login
-![](./login.png)
+![](./wireframes/login.png)
 
 ### Search
-![](./search.png)
+![](./wireframes/search.png)
 
 ### Meals index
-![](./meals-index.png)
+![](./wireframes/meals-index.png)
 
 ### Meals show
-![](./meals-show.png)
+![](./wireframes/meals-show.png)
 
 ## ERDs
-![](./erd.png)
+![](./wireframes/erd.png)
 
 
 ## Technologies Used

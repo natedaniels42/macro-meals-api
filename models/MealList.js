@@ -9,6 +9,10 @@ const mealListSchema = mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Meal'
     }],
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+    }
 });
 
 const MealList = mongoose.model('MealList', mealListSchema);

@@ -18,6 +18,14 @@ const show = (req, res) => {
     });
 };
 
+const findByUser = (req, res) => {
+    db.MealList.find({user: req.params.userid}, (err, foundMealLists) => {
+        if (err) console.log(err);
+
+        res.status(200).send(foundMealLists);
+    })
+}
+
 const create = (req, res) => {
     db.User.findById(req.params.userid, (err, foundUser) => {
         if (err) console.log(err);
@@ -25,11 +33,11 @@ const create = (req, res) => {
         db.MealList.create(req.body, (err, savedMealList) => {
             if (err) console.log('Error in meal list create: ', err);
     
-            foundUser.mealLists.push(savedMealList);
-            foundUser.save((err, savedUser) => {
+            savedMealList.user = foundUser;
+            savedMealList.save((err, updatedMealList) => {
                 if (err) console.log(err);
 
-                res.status(200).json({savedUser, savedMealList});
+                res.status(200).json({updatedMealList});
             }) 
         })
     });
@@ -47,19 +55,10 @@ const update = (req, res) => {
 };
 
 const destroy = (req, res) => {
-    db.MealList.findByIdAndDelete(req.params.meallistid, (err, deletedMealList) => {
+    db.MealList.findByIdAndDelete(req.params.id, (err, deletedMealList) => {
         if (err) console.log('Error in meallist destroy:', err);
 
-        db.User.findById(req.params.userid, (err, foundUser) => {
-            if (err) console.log(err);
-        
-            foundUser.mealLists = foundUser.mealLists.filter(mealList => String(mealList) !== String(deletedMealList._id));
-            foundUser.save((err, savedMealList) => {
-                if (err) console.log(err);
-                
-                res.status(200).json({deletedMealList, savedMealList});
-            })
-        })
+        res.status(200).json({deletedMealList});
     });
 };
 
@@ -102,6 +101,7 @@ const removeMeal = (req, res) => {
 module.exports = {
     index,
     show,
+    findByUser,
     create,
     update,
     destroy,

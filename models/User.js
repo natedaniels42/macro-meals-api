@@ -31,10 +31,6 @@ const userSchema = mongoose.Schema({
         type: Date,
         default: Date.now,
     },
-    mealLists: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'MealList',
-    }],
 });
 
 const User = mongoose.model('User', userSchema);
